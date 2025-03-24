@@ -30,11 +30,11 @@ const Hero = () => {
           width={250}
         />
         <h2 className="text-4xl md:text-7xl text-purple-300 font-extrabold">
-          Let's create
+          Let&apos;s create
         </h2>
 
         <TypeAnimation
-          sequence={["exprience", 1000, "webstites", 1000, "designs", 1000]}
+          sequence={["experience", 1000, "webstites", 1000, "designs", 1000]}
           className="text-4xl md:text-7xl text-fuchsia-300 inline-block font-extrabold"
           wrapper="h1"
           cursor={true}

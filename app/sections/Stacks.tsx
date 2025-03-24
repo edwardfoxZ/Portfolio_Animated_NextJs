@@ -11,7 +11,6 @@ import {
   SiMongodb,
   SiDocker,
 } from "react-icons/si";
-import { FaLemon } from "react-icons/fa";
 
 const stackItems = [
   {
