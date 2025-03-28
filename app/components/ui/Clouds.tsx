@@ -3,7 +3,11 @@
 import React, { RefObject, useEffect, useState } from "react";
 import Circles from "./Circles";
 import { MouseParallax } from "react-just-parallax";
-import { Cl1, Cl2, Cl3, Cl4, Cl5 } from "../index";
+import cloud1 from "@/public/assets/cloud1.png";
+import cloud2 from "@/public/assets/cloud2.png";
+import cloud3 from "@/public/assets/cloud3.png";
+import cloud4 from "@/public/assets/cloud4.png";
+import cloud5 from "@/public/assets/cloud5.png";
 import Image from "next/image";
 
 interface BackgrounCloudsProps {
@@ -24,7 +28,7 @@ const Clouds: React.FC<BackgrounCloudsProps> = ({ parallaxRef }) => {
       <MouseParallax strength={0.1} parallaxContainerRef={parallaxRef}>
         <div className="absolute bottom-[7%] -left-[5%] origin-bottom transition-transform duration-500 ease-out">
           <Image
-            src={Cl1}
+            src={cloud1}
             draggable={false}
             alt="cloud1"
             className={`w-72 ${
@@ -35,7 +39,7 @@ const Clouds: React.FC<BackgrounCloudsProps> = ({ parallaxRef }) => {
 
         <div className="absolute top-[35%] left-1/12 origin-bottom transition-transform duration-500 ease-out">
           <Image
-            src={Cl2}
+            src={cloud2}
             draggable={false}
             alt="cloud2"
             className={`w-72 ${
@@ -46,7 +50,7 @@ const Clouds: React.FC<BackgrounCloudsProps> = ({ parallaxRef }) => {
 
         <div className="absolute top-[45%] -right-[5%] origin-bottom transition-transform duration-500 ease-out">
           <Image
-            src={Cl3}
+            src={cloud3}
             draggable={false}
             alt="cloud3"
             className={`w-72 ${
@@ -57,7 +61,7 @@ const Clouds: React.FC<BackgrounCloudsProps> = ({ parallaxRef }) => {
 
         <div className="absolute top-3/4 right-1/2 origin-bottom transition-transform duration-500 ease-out">
           <Image
-            src={Cl4}
+            src={cloud4}
             draggable={false}
             alt="cloud4"
             className={`w-72 ${
@@ -68,7 +72,7 @@ const Clouds: React.FC<BackgrounCloudsProps> = ({ parallaxRef }) => {
 
         <div className="absolute top-[75%] right-[8%] origin-bottom transition-transform duration-500 ease-out">
           <Image
-            src={Cl5}
+            src={cloud5}
             draggable={false}
             alt="cloud5"
             className={`w-72 ${
